@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Task part 1</title>
+    <style type="text/css">
+        /* Global CSS */
+        body {
+            margin: 0;
+            line-height: normal;
+            background: aliceblue;
+        }
+
+        /* CSS */
+        .rectangle {
+            width: 35%;
+            margin-top: 30px;
+            position: relative;
+            height: 65px;
+            border-radius: 0px 25px 25px 0px;
+            border: 2px #cca520 solid;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: #cca520;
+            text-align: center;
+            margin: 16px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        tr {
+            text-align: center;
+        }
+
+        .a {
+            background-color: lightskyblue;
+            color: white;
+        }
+
+        .b {
+            background-color: lightskyblue;
+            color: white;
+        }
+
+        .c {
+            background-color: lightskyblue;
+            color: white;
+        }
+
+        .ket {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: lightblue;
+            color: black;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rectangle">
+        <h2>HTML Task part 1</h2>
+    </div>
+
+    <h1>Grade A</h1>
+    <table align="center" border="1" bordercolor="white" cellspacing="0" bgcolor="lightblue" width="50%">
+        <tr class="a">
+            <th colspan="4">Laporan Mahasiswa</th>
+        </tr>
+        <tr>
+            <td colspan="2">Nama</td>
+            <!-- <td colspan="2">Nama</td> -->
+            <td colspan="2">Alamat</td>
+        </tr>
+        <tr>
+            <td>Nama Depan</td>
+            <td>Nama Belakang</td>
+            <td>Jalan</td>
+            <td>Kota</td>
+        </tr>
+        <tr>
+            <td>Uzumaki</td>
+            <td>Naruto</td>
+            <td>Ds. Daun Tersembunyi</td>
+            <td>Konohagakure</td>
+        </tr>
+        <tr>
+            <td colspan="4">Hasil Studi</td>
+        </tr>
+        <tr>
+            <td colspan="2">Mata Kuliah</td>
+            <td colspan="2">Nilai</td>
+        </tr>
+        <tr>
+            <td colspan="2">Matematika</td>
+            <td colspan="2">A</td>
+        </tr>
+        <tr>
+            <td colspan="2">Fisika</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td colspan="4">Catatan Tambahan</td>
+        </tr>
+        <tr>
+            <td colspan="4">Mahasiswa memiliki ketertarikan yang tinggi dalam kegiatan extrakurikuler</td>
+        </tr>
+    </table>
+
+    <h1>Grade B</h1>
+    <table align="center" border="2" bordercolor="white" width="50%" bgcolor="lightblue">
+        <tr class="b">
+            <th rowspan="3" width="15%">No</th>
+            <th rowspan="3" width="15%">Nama</th>
+            <th colspan="6">Hasil Ujian</th>
+            <th rowspan="3" width="15%">Keterangan</th>
+        </tr>
+        <tr class="b">
+            <th colspan="2">HTMl</th>
+            <th colspan="2">CSS</th>
+            <th colspan="2">JavaScript</th>
+        </tr>
+        <tr class="b">
+            <th>Initial</th>
+            <th>Final</th>
+            <th>Initial</th>
+            <th>Final</th>
+            <th>Initial</th>
+            <th>Final</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bill</td>
+            <td>80</td>
+            <td>90</td>
+            <td>78</td>
+            <td>85</td>
+            <td>85</td>
+            <td>90</td>
+            <td class="ket">Lulus</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Budi</td>
+            <td>78</td>
+            <td>90</td>
+            <td>88</td>
+            <td>90</td>
+            <td>80</td>
+            <td>88</td>
+            <td class="ket">Lulus</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Abde</td>
+            <td>82</td>
+            <td>89</td>
+            <td>84</td>
+            <td>87</td>
+            <td>84</td>
+            <td>90</td>
+            <td class="ket">Lulus</td>
+        </tr>
+    </table>
+
+    <h1>Grade C</h1>
+    <table align="center" border="" bordercolor="white" cellspacing="0" width="50%" bgcolor="lightblue">
+        <tr class="c">
+            <th>Hari</th>
+            <th>Waktu</th>
+            <th>Mata Kuliah</th>
+            <th>Dosen</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>08:00 - 10:00</td>
+            <td>Kalkulus</td>
+            <td>Prof. Ahmad</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>09:00 - 11:00</td>
+            <td>Algoritma dan Struktur Data</td>
+            <td>Dr. Budi</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>10:00 - 12:00</td>
+            <td>Pemrograman Web</td>
+            <td>Dr. Cindy</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>08:00 - 10:00</td>
+            <td>Jaringan Komputer</td>
+            <td>Prof. Elsa</td>
+        </tr>
+        <tr>
+            <td>Jum'at</td>
+            <td>13:00 - 15:00</td>
+            <td>Basis Data</td>
+            <td>Dr. Farhan</td>
+        </tr>
+    </table>
+
+</body>
+<br>
+<footer>Created By
+    <a href="https://github.com/mgilangggggg/">M. Gilang Abdul Gani</a></footer>
+
+</html>
